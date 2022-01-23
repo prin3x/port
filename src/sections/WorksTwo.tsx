@@ -5,7 +5,7 @@ interface Props {}
 
 function WorksTwo({}: Props): ReactElement {
   return (
-    <div className='main-bg h-screen sm:px-12 lg:px-24'>
+    <div className='main-bg h-screen px-10 lg:px-24'>
       <div className=' relative'>
         <div className='works-example-title works-three h-full lg:pl-36 lg:block flex justify-center flex-col items-center'>
           <div className='text-4xl pt-20'>
