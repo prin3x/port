@@ -19,6 +19,9 @@ function WorksFour({}: Props): ReactElement {
         <div className='font-bold text-left mt-2'>
           STACKS : FASTIFY - MORALIS
         </div>
+        <div className='font-regular text-left text-sm'>
+          ROLE : Off-Chain Engineer
+        </div>
         <div className='mt-5'>
           <a
             href='https://covest-finance-lab.webflow.io/'

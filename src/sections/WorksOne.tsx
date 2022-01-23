@@ -16,6 +16,9 @@ function WorksOne({}: Props): ReactElement {
         <div className='font-bold text-center'>
           STACKS : NextJS - NestJS - MySQL
         </div>
+        <div className='font-regular text-left text-sm'>
+          ROLE : Frontend / Backend Engineer
+        </div>
         <div className='mt-5'>
           <a
             href='https://www.thaibulksms.com/'

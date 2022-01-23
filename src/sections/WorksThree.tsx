@@ -22,6 +22,9 @@ function WorksThree({}: Props): ReactElement {
           <div className='font-bold text-left mt-2'>
             STACKS : NextJS - NestJS - MySQL
           </div>
+          <div className='font-regular text-left text-sm'>
+            ROLE : Frontend / Backend Engineer
+          </div>
           <div className=''>
             <img src='/assets/works/me-calendar.png' alt='' className='lg:w-3/4 mx-auto w-3/6 hidden lg:block' />
           </div>

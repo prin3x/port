@@ -17,7 +17,7 @@ function Works({}: Props): ReactElement {
             WORKS
           </motion.div>
           <div className='absolute lg:top-20 lg:left-32 lg:w-full left-14 w-80 top-10'>
-            <div className='text-md font-thin text-sm'>
+            <div className='text-md font-regular text-sm'>
               I love building thing from scratch, as most of past projects are required to build both frontend, backend and CMS.
             </div>
             <div className='lg:text-4xl font-normal works-title-desc  text-xl mt-2'>

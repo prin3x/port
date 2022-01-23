@@ -5,7 +5,7 @@ interface Props {}
 
 function WorksTwo({}: Props): ReactElement {
   return (
-    <div className='main-bg h-screen px-12 lg:px-24'>
+    <div className='main-bg h-screen sm:px-12 lg:px-24'>
       <div className=' relative'>
         <div className='works-example-title works-three h-full lg:pl-36 lg:block flex justify-center flex-col items-center'>
           <div className='text-4xl pt-20'>
@@ -17,6 +17,9 @@ function WorksTwo({}: Props): ReactElement {
           </div>
           <div className='font-bold text-left mt-2'>
             STACKS : ReactJS - ExpressJS - MongoDB
+          </div>
+          <div className='font-regular text-left text-sm'>
+            ROLE : Frontend / Backend Engineer
           </div>
           <div className='mt-5'>
             <a
