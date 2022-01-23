@@ -5,7 +5,7 @@ interface Props {}
 
 function WorksFour({}: Props): ReactElement {
   return (
-    <div className='main-bg h-screen flex items-center justify-center px-28 '>
+    <div className='main-bg h-screen flex items-center justify-center px-10 lg:px-28 flex-col-reverse lg:flex-row'>
       <div className=''>
         <img src='/assets/works/covest-lg.png' alt='' className='w-5/5' />
       </div>
@@ -20,17 +20,23 @@ function WorksFour({}: Props): ReactElement {
           STACKS : FASTIFY - MORALIS
         </div>
         <div className='mt-5'>
-          <Button
-            variant='contained'
-            style={{
-              backgroundColor: '#000',
-              fontWeight: '100',
-              textTransform: 'capitalize',
-              width: '150px',
-            }}
+          <a
+            href='https://covest-finance-lab.webflow.io/'
+            target='_blank'
+            rel='noreferrer'
           >
-            Explore
-          </Button>
+            <Button
+              variant='contained'
+              style={{
+                backgroundColor: '#000',
+                fontWeight: '100',
+                textTransform: 'capitalize',
+                width: '150px',
+              }}
+            >
+              Explore
+            </Button>
+          </a>
         </div>
       </div>
     </div>
