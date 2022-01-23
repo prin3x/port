@@ -39,5 +39,40 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      function clickEffect(e) {
+        var d = document.createElement('div');
+        d.className = 'clickEffect';
+        d.style.top = e.clientY + 'px';
+        d.style.left = e.clientX + 'px';
+        document.body.appendChild(d);
+        d.addEventListener(
+          'animationend',
+          function () {
+            d.parentElement.removeChild(d);
+          }.bind(this)
+        );
+      }
+
+      function setIntervalLimited(callback, interval, x) {
+        let curInterval = interval;
+        for (var i = 0; i < x; i++) {
+          curInterval -= 200
+          setTimeout(callback, i * curInterval);
+        }
+      }
+
+      function waterDrop(e) {
+        let maxTime = 3;
+        setIntervalLimited(
+          () => {
+            clickEffect(e);
+          },
+          500,
+          maxTime
+        );
+      }
+      document.addEventListener('click', waterDrop);
+    </script>
   </body>
 </html>
