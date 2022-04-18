@@ -5,15 +5,15 @@ interface Props {}
 
 function WorksOne({}: Props): ReactElement {
   return (
-    <div className='main-bg h-screen'>
+    <div className='main-bg h-screen sm:py-36 xs:py-10'>
       <div className='works-example-title w-full text-center flex justify-center flex-col items-center'>
-        <div className='lg:text-4xl text-3xl'>
+        <div className='md:text-8xl text-3xl'>
           Member <span className='font-bold'>Console</span>
         </div>
-        <div className='font-thin text-center text-md lg:text-lg'>
+        <div className='font-thin text-center text-md md:text-2xl'>
           This app delivered full management of sending sms.
         </div>
-        <div className='font-bold text-center'>
+        <div className='font-bold text-center text-2xl md:text-4xl'>
           STACKS : NextJS - NestJS - MySQL
         </div>
         <div className='font-regular text-left text-sm'>
@@ -43,7 +43,7 @@ function WorksOne({}: Props): ReactElement {
         <img
           src='/assets/works/tbs-group.png'
           alt=''
-          className='w-4/5 mx-auto'
+          className='w-3/5 mx-auto'
         />
       </div>
     </div>

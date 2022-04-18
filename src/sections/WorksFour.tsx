@@ -5,13 +5,13 @@ interface Props {}
 
 function WorksFour({}: Props): ReactElement {
   return (
-    <div className='main-bg h-screen flex items-center justify-center px-10 lg:px-28 flex-col-reverse lg:flex-row'>
+    <div className='main-bg sm:py-36 xs:py-10 h-screen flex items-center justify-center px-10 md:px-28 flex-col-reverse xs:flex-row'>
       <div className=''>
         <img src='/assets/works/covest-lg.png' alt='' className='w-5/5' />
       </div>
       <div className='w-full'>
-        <div className='text-4xl'>
-          Insurance <span className='font-bold'>blockchain dApp</span>
+        <div className='text-4xl md:text-7xl'>
+          Insurance <br/> <span className='font-bold'>blockchain dApp</span>
         </div>
         <div className='works-example-desc font-thin text-left'>
           Prototype project aims for p2p insurance.
